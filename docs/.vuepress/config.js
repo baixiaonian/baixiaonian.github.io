@@ -6,11 +6,14 @@ export default defineUserConfig({
   // 请不要忘记设置默认语言
   base: '/',
   lang: 'zh-CN',
+  
   theme: plumeTheme({
+    
     // more...
     blog: false,
 
     navbar: [
+      { text: '首页', link: '/' },
       {
         text: 'AI搞钱',
         link: '/aimoney/'
@@ -22,6 +25,10 @@ export default defineUserConfig({
       {
         text: '智能体',
         link: '/agent/'
+      },
+      {
+        text: 'AI导航',
+        link: '/navlink.html'
       }
     ],
 
